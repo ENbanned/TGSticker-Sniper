@@ -5,7 +5,7 @@ from dataclasses import dataclass
 class Config:
     
     # JWT токен из браузера
-    jwt_token: str = "eyJhbGciOiJIUzI1N"
+    jwt_token: str = "eyJhbGciOiJIUzI1N...."
     
     # ton сид-фраза из 24 слов (например из TonKeeper)
     ton_seed_phrase: str = "word1 word2 ... word24"
